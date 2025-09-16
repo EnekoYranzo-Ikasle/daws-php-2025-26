@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>01-Ejercicio17</title>
+</head>
+
+<body>
+  <h2>Ejercicio 17:</h2>
+  <h3>Solución:</h3>
+  <p>
+    <?php
+    if ($resultado) {
+      $respuesta = "Usuario no exite o es incorrecto";
+    } else {
+      $respuesta = "Usuario exite";
+    }
+
+    echo $respuesta;
+    ?>
+  </p>
+</body>
+
+</html>
