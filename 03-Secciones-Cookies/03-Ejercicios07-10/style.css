@@ -1,0 +1,36 @@
+* {
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+.idioma {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-between;
+  align-items: center;
+}
+
+table {
+  border-collapse: collapse;
+  text-align: left;
+}
+
+table tr {
+  border-bottom: 1px solid black;
+}
+
+table td {
+  padding: 8px;
+}
+
+.boton {
+  background-color: darkcyan;
+  border-radius: 5px;
+  padding: 4px;
+  text-decoration: none;
+  color: white;
+}
+
+.boton:hover {
+  filter: brightness(90%);
+}
