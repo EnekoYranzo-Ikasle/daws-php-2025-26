@@ -1,7 +1,7 @@
 <?php
 include "ejercicio.data.php";
 
-// Funciones:
+// Funciones principales:
 function inicializarCesta() {
   if (!isset($_SESSION["cesta"])) {
     $_SESSION["cesta"] = [];

@@ -3,6 +3,12 @@
   font-family: sans-serif;
 }
 
+body {
+  width: 60%;
+  margin: 0 auto;
+  margin-top: 1em;
+}
+
 .idioma {
   display: flex;
   flex-direction: row-reverse;
@@ -33,4 +39,11 @@ table td {
 
 .boton:hover {
   filter: brightness(90%);
+}
+
+@media screen and (max-width: 960px) {
+  body {
+    width: 90vh;
+    margin: 1em;
+  }
 }
